@@ -1,0 +1,120 @@
+* {
+  font-family: "Indie Flower", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --raisin-black: #272727ff;
+  --orange-yellow-crayola: #fed766ff;
+  --pacific-blue: #009fb7ff;
+  --dim-gray: #696773ff;
+  --cultured: #eff1f3ff;
+}
+.container {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  background-color: var(--raisin-black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  gap: 25px;
+  justify-content: flex-end;
+
+  background-color: var(--raisin-black);
+}
+.anchor {
+  color: var(--orange-yellow-crayola);
+  text-decoration: none;
+  font-size: xx-large;
+}
+.hero-Page {
+  height: 100vh;
+  background-color: var(--raisin-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 150px;
+}
+.heading {
+  color: var(--pacific-blue);
+  font-size: 3.1rem;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.footer {
+  background-color: var(--orange-yellow-crayola);
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  font-size: xx-large;
+  text-align: center;
+}
+.description {
+  color: var(--cultured);
+  padding-left: 85px;
+  padding-right: 85px;
+}
+.icon {
+  height: 40px;
+  margin-top: 5px;
+  font-size: 30px;
+}
+.contain {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.number {
+  font-size: 35px;
+}
+.aboutmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.aboutus {
+  display: flex;
+  padding-right: 35px;
+  flex-direction: column;
+  font-size: 30px;
+  height: max-content;
+}
+.btn {
+  width: 210px;
+  background-color: var(--pacific-blue);
+  border: none;
+  height: 60px;
+  margin-top: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
